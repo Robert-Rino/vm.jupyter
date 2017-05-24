@@ -1,5 +1,6 @@
 # Jupyter VM
 A Vagrant VM to set up a data science environment easily.
+This is a update version of [this repo](https://github.com/databriefing/databriefing-vm)
 
 ## Prerequisites
 
