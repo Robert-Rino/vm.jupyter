@@ -14,10 +14,6 @@
         - python3-pip
         - python3-dev
         - build-essential
-        - python3-matplotlib
-        - python3-numpy
-        - python3-scipy
-        - python3-pandas
         - python3-pyparsing
 
     - name: Install scikit-learn, Jupyter, TensorFlow
@@ -27,6 +23,9 @@
         - pip
         - sklearn
         - jupyter
+        - pandas
+        - numpy
+        - matplotlib
         - "{{ tensorflow_url }}"
 
     - shell: echo "cd ~/shared" >> /home/vagrant/.profile
