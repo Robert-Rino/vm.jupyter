@@ -26,6 +26,7 @@
         - pandas
         - numpy
         - matplotlib
+        - scipy
         - "{{ tensorflow_url }}"
 
     - shell: echo "cd ~/shared" >> /home/vagrant/.profile
